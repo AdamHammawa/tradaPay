@@ -1673,8 +1673,15 @@ margin-top: 10px;
  
 
  body{
-  width: 100%;
+  width: 100vw;
  }
+.container {
+  width: 100%;
+  padding-left: 3rem;
+}
+
+
+
 
   nav{
     display: flex;
@@ -1837,15 +1844,15 @@ margin-top: 10px;
 
 .mission_sect .down_appos {
   left: 70%;
-  top: 553%;
+  top: 559%;
   font-size: 24px;
   line-height: 24px;
 }
 
 .foot {
   width: 141px;
-  left: 280px;
-  top: 557%;
+  left: 270px;
+  top: 564%;
   font-size: 18px;
 }
 
@@ -1874,7 +1881,7 @@ margin-top: 10px;
 
 .right__pane {
   display: flex;
-  margin: 3rem 70px;
+  margin: 3rem 50px;
 }
 
 .right__pane i {
@@ -1890,13 +1897,13 @@ margin-top: 10px;
 /* ------------------------------ */
 
 .left__panetwo {
-  left: 10%;
+  left: 0;
 }
 
 
 .right__panetwo {
   display: flex;
-  margin: 1rem 70px;
+  margin: 1rem 50px;
 }
 
 .right__panetwo i {
@@ -2011,11 +2018,11 @@ margin-top: 10px;
   /* Style the tab */
   .tab_two {
     padding: 0;
-    right: 95px;
+    right: 80px;
     display: flex;
     top: 0;
     margin-right: 5px;
-    width: 70%;
+    width: 80%;
     height: 500px;
   }
   

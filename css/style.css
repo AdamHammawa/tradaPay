@@ -195,6 +195,96 @@ img {
   flex-grow: 0;
 }
 
+
+
+
+/* popup 2---------------------- */
+
+.popup2 {
+  position: absolute;
+  top: -150%;
+  opacity: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.25);
+  width: 380px;
+  padding: 20px 30px;
+  background: var(--color-white);
+  z-index: 1;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
+}
+
+.popup2.active {
+  top: 50%;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  transition: top 0ms ease-in-out 0ms, opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
+}
+
+.popup2 .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+  color: red;
+  background: #eeeeee;
+  border-radius: 10px;
+  line-height: 15px;
+  font-size: 40px;
+}
+
+.popup2 .form h3 {
+  color: var(--color-btn);
+  margin: 15px 0;
+}
+
+.popup2 .form p {
+  text-align: left;
+  margin: 15px 0;
+  color: #212121;
+}
+
+.popup2 .form .form-element {
+  margin: 10px 0;
+  display: grid;
+}
+
+.popup2 .form .form-element label {
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: flex-end;
+}
+
+.popup2 .form .form-element input[type="text"] {
+  margin: 10px 0;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  outline: none;
+  background: #eeeeee;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+
+
+
+
+
 nav {
   background: transparent;
   width: 100vw;
@@ -277,6 +367,24 @@ header h1 {
   border-radius: 50%;
   padding: 10px;
   margin: 50px 0;
+  align-items: center;
+}
+
+.header__left button {
+  background: var(--color-btn);
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: var(--transition);
+  cursor: pointer;
+  margin-left: 4.5rem;
+  width: 243px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
@@ -1188,6 +1296,7 @@ margin-top: 10px;
     justify-content: center;
     align-items: center;
     padding: 16px 20px;
+    margin-left: 4.5rem;
   }
   
   .header__container button {

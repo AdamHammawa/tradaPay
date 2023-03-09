@@ -8,6 +8,16 @@ document
     document.querySelector(".popup").classList.remove("active");
   });
 
+document.querySelector("#show-pop2").addEventListener("click", function () {
+  document.querySelector(".popup2").classList.add("active");
+});
+
+document
+  .querySelector(".popup2 .close-btn")
+  .addEventListener("click", function () {
+    document.querySelector(".popup2").classList.remove("active");
+  });
+
 // Get Started Tabs
 
 function openCity(evt, cityName) {

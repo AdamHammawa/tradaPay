@@ -1381,7 +1381,6 @@ margin-top: 10px;
   width: 54px;
   height: 44px;
   left: 10%;
-  margin: 80px 0;
   font-size: 36px;
   line-height: 44px;
 }
@@ -1952,8 +1951,8 @@ margin-top: 10px;
 }
 
 .mission_sect .down_appos {
-  left: 60%;
-  top: 552%;
+  right: 10%;
+  top: 215rem;
   font-size: 24px;
   line-height: 24px;
 }

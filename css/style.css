@@ -1782,6 +1782,7 @@ margin-top: 10px;
 
  body{
   width: 100vw;
+  overflow-x: hidden;
  }
 .container {
   width: 100%;
@@ -1823,7 +1824,7 @@ margin-top: 10px;
 
  
   header h1 {
-    width: 370px;
+    width: 350px;
     height: 235px;
     font-size: 36px;
     line-height: 47px;
@@ -1842,7 +1843,7 @@ margin-top: 10px;
     width: 256px;
     height: 38px;
     padding: 10px 12px;
-    margin: 10px 50px;
+    margin: 10px 10px;
   }
   
   .header__container button {
@@ -2029,13 +2030,13 @@ margin-top: 10px;
 
 
 .app__container {
-  width: 100%;
+  width: 100vw;
   grid-template-columns: 1fr;
   padding-left: 3rem;
 }
 
 .left__side h2 {
-  width: 380px;
+  width: 350px;
   height: 76px;
   font-size: 24px;
   line-height: 27px;
@@ -2043,12 +2044,12 @@ margin-top: 10px;
 }
 
 .left__side p {
-  width: 380px;
+  width: 330px;
   height: 76px;
   font-size: 14px;
   line-height: 20px;
   text-align: justify;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .app_stores .apple {
@@ -2059,6 +2060,8 @@ margin-top: 10px;
 .app_stores .android{
   width: 100px;
   height: 35px; 
+  right: 70px;
+  position: relative;
 }
 
 .right__side {
@@ -2105,7 +2108,7 @@ margin-top: 10px;
 .tabcontent img{
   display: inline;
   top: 70px;
-  right: -70px;
+  left: 20px;
 }
 
 .tabcontent h3{
@@ -2197,7 +2200,7 @@ margin-top: 10px;
 }
 
 .footer__1 p {
-    width: 328px;
+    width: 315px;
     height: 108px;
     font-size: 14px;
     line-height: 18px;
@@ -2226,12 +2229,12 @@ margin-top: 10px;
 }
 
 .footer__copyright p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 23px;
 }
 
 .footer__copyright img{
-  left: -50px;
+  left: -45px;
 }
 
 .footer__copyright .cbn {

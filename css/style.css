@@ -1249,7 +1249,6 @@ margin-top: 10px;
   width: 48px;
   height: 48px;
   position: relative;
-  left: 420px;
   top: 15px;
   padding: -20px;
 }
@@ -1257,7 +1256,10 @@ margin-top: 10px;
 .footer__copyright .cbn {
   display: block;
 }
-
+.footer__copyright .cbn img {
+  position: relative;
+  left: 29%;
+}
 
 
 

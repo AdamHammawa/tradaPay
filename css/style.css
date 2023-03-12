@@ -356,6 +356,7 @@ header h1 {
   line-height: 18px;
   display: flex;
   align-items: center;
+  width: 200px;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -363,7 +364,7 @@ header h1 {
 .header__container button a i {
   background: var(--color-btn);
   color: var(--color-white);
-
+  font-size: 20px;
   border-radius: 50%;
   padding: 10px;
   margin: 50px 0;
@@ -1256,10 +1257,10 @@ margin-top: 10px;
 .footer__copyright .cbn {
   display: block;
 }
-.footer__copyright .cbn img {
+/* .footer__copyright .cbn img {
   position: relative;
   left: 29%;
-}
+} */
 
 
 
@@ -1783,7 +1784,8 @@ margin-top: 10px;
  
 
  body{
-  width: 100vw;
+  
+  width: 100%;
   overflow-x: hidden;
  }
 .container {
@@ -1845,11 +1847,11 @@ margin-top: 10px;
     width: 256px;
     height: 38px;
     padding: 10px 12px;
-    margin: 10px 10px;
+    margin: 10px 0;
   }
   
   .header__container button {
-    margin: 70px 9rem;
+    margin: 70px 5rem;
     font-size: 14px;
     line-height: 18px;
     width: 303px;
@@ -1946,7 +1948,7 @@ margin-top: 10px;
 }
 
 .mission_sect .statement {
-  width: 345px;
+  width: 305px;
   height: 83px;
   margin: 3.5rem 0;
   font-size: 16px;
@@ -2034,11 +2036,11 @@ margin-top: 10px;
 .app__container {
   width: 100vw;
   grid-template-columns: 1fr;
-  padding-left: 3rem;
+  padding-left: 1.5rem;
 }
 
 .left__side h2 {
-  width: 350px;
+  width: 300px;
   height: 76px;
   font-size: 24px;
   line-height: 27px;
@@ -2046,12 +2048,18 @@ margin-top: 10px;
 }
 
 .left__side p {
-  width: 330px;
+  width: 300px;
   height: 76px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   text-align: justify;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.left__side h4{
+  margin: 20px 0;
+  font-size: 18px;
+  text-transform: capitalize;
 }
 
 .app_stores .apple {
@@ -2110,7 +2118,7 @@ margin-top: 10px;
 .tabcontent img{
   display: inline;
   top: 70px;
-  left: 20px;
+  left: 50px;
 }
 
 .tabcontent h3{
@@ -2161,7 +2169,7 @@ margin-top: 10px;
   
   .tab_twocontent img{
     display: inline;
-    top: 40%;
+    top: 50%;
     left: 220px;
   }
   

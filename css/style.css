@@ -1790,13 +1790,8 @@ margin-top: 10px;
   overflow-x: hidden;
  }
 .container {
-  width: var(--container-width-sm);
-  padding-left: 3rem;
-  max-width: 100%;
-}
-
-.hero {
   width: 100%;
+  padding-left: 3rem;
 }
 
 
@@ -2252,16 +2247,17 @@ margin-top: 10px;
 }
 
 .footer__copyright img{
-  left: -45px;
+  left: -35px;
+  width: 40px;
+  height: 40px;
 }
 
 .footer__copyright .cbn {
   display: inline-block;
   width: 250px;
+  align-items: center;
 }
-
-.footer__copyright .cbn p {
-  font-size: 12px;
+.footer__copyright .cbn p{
+  font-size: 13px;
 }
-  
 }

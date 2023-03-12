@@ -1268,6 +1268,8 @@ margin-top: 10px;
 
 
 @media screen and (max-width: 1024px) {
+
+  
  
   header {
     display: flex;
@@ -1784,13 +1786,17 @@ margin-top: 10px;
  
 
  body{
-  
   width: 100%;
   overflow-x: hidden;
  }
 .container {
-  width: 100%;
+  width: var(--container-width-sm);
   padding-left: 3rem;
+  max-width: 100%;
+}
+
+.hero {
+  width: 100%;
 }
 
 
@@ -2169,8 +2175,10 @@ margin-top: 10px;
   
   .tab_twocontent img{
     display: inline;
-    top: 50%;
-    left: 220px;
+    top: 40%;
+    left: 200px;
+    margin-top: 20px;
+    margin-bottom: 0;
   }
   
   .tab_twocontent h3{
@@ -2249,6 +2257,11 @@ margin-top: 10px;
 
 .footer__copyright .cbn {
   display: inline-block;
+  width: 250px;
+}
+
+.footer__copyright .cbn p {
+  font-size: 12px;
 }
   
 }

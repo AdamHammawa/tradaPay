@@ -1786,11 +1786,11 @@ margin-top: 10px;
  
 
  body{
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
  }
 .container {
-  width: 100%;
+  width: 100vw;
   padding-left: 3rem;
 }
 

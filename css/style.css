@@ -2200,6 +2200,7 @@ margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    width: 100%;
 }
 
 .footer__1 img{
